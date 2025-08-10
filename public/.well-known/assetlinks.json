@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vitaly.smartring",
+      "sha256_cert_fingerprints": [
+        "25:C9:67:03:51:A5:7F:AE:AE:7D:31:83:21:1A:9C:94:81:DF:38:F7:0B:3A:49:75:98:23:A4:02:0D:CC:51:FD"
+      ]
+    }
+  }
+]
