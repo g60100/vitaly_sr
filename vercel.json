@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "framework": "vite",
   "outputDirectory": "dist",
@@ -13,3 +14,20 @@
     }
   ]
 }
+=======
+{
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    }
+  ]
+}
+>>>>>>> bd28e80 (Resolve merge conflicts)
