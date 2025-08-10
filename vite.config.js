@@ -1,10 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// Vercel 정적 배포 폴더를 dist로 고정
 export default defineConfig({
   plugins: [react()],
-  build: {
-    outDir: 'dist'
-  }
-})
+  build: { outDir: 'dist' },
+  server: { port: 5173 }
+});
